@@ -9,6 +9,6 @@ It provides an interactive Shiny application for exploring CpG probes associated
 
 ```r
 install.packages("devtools")
-devtools::install_github("your_username/CpGFinder")
+devtools::install_github("ytwangZero/CpGFinder")
 
 CpGFinder::run_app()
