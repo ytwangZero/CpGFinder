@@ -1,0 +1,22 @@
+Package: CpGFinder
+Title: Gene-Level CpG Identification Tool
+Version: 1.0.0
+Authors@R: 
+    person("Yuting", "Wang", email = "ytwangzero@outlook.com", role = c("aut", "cre"))
+Description: Identify CpG probes in genes using Illumina EPIC arrays and UCSC coordinates.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    shiny,
+    shinydashboard,
+    shinyWidgets,
+    DT,
+    httr2,
+    jsonlite,
+    dplyr,
+    readxl,
+    writexl,
+    magrittr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
